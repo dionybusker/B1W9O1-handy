@@ -1,0 +1,62 @@
+/* styling */
+
+/* font-family: 'Archivo', sans-serif; */
+
+body {
+    font-family: 'Archivo', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+header > .logo {
+    position: relative;
+    top: 30px;
+    left: 320px;
+}
+
+header > .banner {
+    width: 100%;
+}
+
+header > nav {
+    width: 950px;
+    background-color: #222931;
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+    top: 40px;
+}
+
+header > nav > ul {
+    list-style-type: none;
+    padding: 20px 25px;
+}
+
+header > nav > ul > li {
+    display: inline;
+    padding: 0 10px;
+}
+
+header > nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+/* arrow down */
+header > nav > ul > li > a > i {
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 5px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+/* /arrow down */
