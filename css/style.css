@@ -151,6 +151,18 @@ footer > .center > main > div.contact {
     left: 0;
 }
 
-footer > .center > main > div.contact > p > i {
+footer > .center > main > div.contact > i {
     font-size: 25px;
+    color: #aeb6be;
+}
+
+footer > .center > main > div > h1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+footer > .center > main > div > p {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
 }
