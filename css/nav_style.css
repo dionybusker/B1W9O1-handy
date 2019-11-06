@@ -1,0 +1,61 @@
+.menu {
+    width: 950px;
+    background-color: #222931;
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+    top: 40px;
+    padding: 20px 25px;
+}
+
+.menu > li {
+    display: inline-block;
+}
+
+.menu > li > a {
+    text-decoration: none;
+    color: white;
+    padding: 20px 10px;
+}
+
+.menu > li > a:hover {
+    background-color: #ffe718;
+    color: #222931;
+}
+
+.menu > li > a > i {
+    margin: 0 3px;
+    color: white;
+}
+
+.uitklap-menu {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    top: 32px;
+}
+
+.uitklap-menu > li {
+    min-width: 175px;
+    background-color: #222931;
+    display: inline-block;
+    padding: 5px 0;
+}
+
+.uitklap-menu > li > a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: left;
+    padding: 8px 0;
+    padding: 10px;
+}
+
+.uitklap-menu > li > a:hover {
+    background-color: #ffe718;
+    color: #222931;
+}
+
+.uitklap-item:hover > .uitklap-menu { display: block; }
+.uitklap-item { position: relative; }
