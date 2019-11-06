@@ -13,7 +13,7 @@ body {
     width: 1000px;
 }
 
-header > div > .logo {
+header > div.center > .logo {
     position: relative;
     top: 30px;
     left: 25px;
@@ -23,77 +23,11 @@ header > .banner {
     width: 100%;
 }
 
-.menu {
-    width: 950px;
-    background-color: #222931;
-    font-size: 12px;
-    font-weight: 500;
-    position: relative;
-    top: 40px;
-}
-
-.menu { padding: 20px 25px; }
-
-.menu > li {
-    display: inline-block;
-    /* padding: 0 10px; */
-}
-
-.menu > li > a {
-    text-decoration: none;
-    color: white;
-    padding: 20px 10px;
-}
-
-.menu > li > a:hover {
-    background-color: #ffe718;
-    color: #222931;
-    /* padding: 20px 10px; */
-}
-
-.menu > li > a > i {
-    margin: 0 3px;
-    color: white;
-}
-
-.uitklap-menu {
-    display: none;
-    list-style-type: none;
-    padding: 0;
-    position: absolute;
-    top: 32px;
-}
-
-.uitklap-menu > li {
-    min-width: 150px;
-    background-color: #222931;
-    display: inline-block;
-    padding: 10px;
-}
-
-.uitklap-menu > li > a {
-    text-decoration: none;
-    color: white;
-    display: block;
-    text-align: left;
-    padding: 8px 0;
-    /* padding: 0 20px; */
-}
-
-.uitklap-menu > li > a:hover {
-    background-color: #ffe718;
-    color: #222931;
-    /* padding: 5px 0; */
-}
-
-.uitklap-item:hover > .uitklap-menu { display: block; }
-.uitklap-item { position: relative; }
-
 .center > img {
     display: inline-block;
 }
 
-main > div > img {
+main > div.center > img {
     margin: 0 10px;
     position: relative;
     top: 50px;
@@ -198,6 +132,51 @@ footer > .center > main > div > h1 {
 }
 
 footer > .center > main > div > p {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.grid-footer {
+    display: grid;
+    grid-template-areas: 'overons contact';
+    grid-template-rows: minmax(50px, auto);
+    grid-template-columns: (2, 1fr);
+}
+
+.overons { grid-area: overons; }
+.contact { grid-area: contact; }
+
+footer > .center > main > div.overons {
+    width: 450px;
+}
+
+footer > .center > main > div.contact {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+footer > .center > main > div.contact > i {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+footer > .center > main > div.contact > p {
+    display: inline-block;
+    position: relative;
+    top: 0;
+    left: 20px;
+}
+
+footer > .center > .page-end {
+    background-color: #222931;
+    width: 100%;
+}
+
+footer > .center > .page-end > p {
+    color: white;
     font-size: 12px;
     line-height: 18px;
     font-weight: 400;
