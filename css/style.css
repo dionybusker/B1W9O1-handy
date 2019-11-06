@@ -138,3 +138,19 @@ footer > .center > button > .icon {
 
 footer > .center > button > .text > h1 { font-size: 22px; font-weight: 600; margin: 10px 0 0 0; }
 footer > .center > button > .text > p { font-size: 14px; font-weight: 600; margin: 5px 0 10px 0; }
+
+hr {
+    border: 1px solid #eef0f1;
+    position: relative;
+    bottom: 20px;
+}
+
+footer > .center > main > div.contact {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+footer > .center > main > div.contact > p > i {
+    font-size: 25px;
+}
