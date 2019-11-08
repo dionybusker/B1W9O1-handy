@@ -83,25 +83,44 @@ main.bottom > .bottom-banner {
     width: 100%;
 }
 
-main.bottom > .center > button {
+main.bottom > .center > a {
+    text-decoration: none;
+}
+
+main.bottom > .center > a > button {
     width: 300px;
     background-color: #ffe718;
     border: none;
     padding: 10px 32px;
     /* text-align: justify; */
-    text-decoration: none;
     display: inline-block;
     margin: 10px;
     position: relative;
     bottom: 55px;
+    cursor: pointer;
 }
 
-main.bottom > .center > button > .text {
+main.bottom > .center > a.deals > button:hover, main.bottom > .center > a.deals > button:hover > .icon {
+    background-color: #222931;
+    color: white;
+}
+
+main.bottom > .center > a.diensten > button:hover, main.bottom > .center > a.diensten > button:hover > .icon {
+    background-color: #222931;
+    color: white;
+}
+
+main.bottom > .center > a.contact > button:hover, main.bottom > .center > a.contact > button:hover > .icon {
+    background-color: #222931;
+    color: white;
+}
+
+main.bottom > .center > a > button > .text {
     display: inline-block;
     text-align: justify;
 }
 
-main.bottom > .center > button > .icon {
+main.bottom > .center > a > button > .icon {
     color: #222931;
     display: inline-block;
     font-size: 50px;
@@ -110,8 +129,8 @@ main.bottom > .center > button > .icon {
     right: 25px;
 }
 
-main.bottom > .center > button > .text > h1 { font-size: 22px; font-weight: 600; margin: 10px 0 0 0; }
-main.bottom > .center > button > .text > p { font-size: 14px; font-weight: 600; margin: 5px 0 10px 0; }
+main.bottom > .center > a > button > .text > h1 { font-size: 22px; font-weight: 600; margin: 10px 0 0 0; }
+main.bottom > .center > a > button > .text > p { font-size: 14px; font-weight: 600; margin: 5px 0 10px 0; }
 
 hr {
     border: 1px solid #eef0f1;
@@ -187,6 +206,6 @@ footer > p {
     font-weight: 400;
     text-align: right;
     position: relative;
-    top: 10.toppx;
+    top: 10px;
     right: 325px;
 }
