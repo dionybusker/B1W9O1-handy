@@ -18,7 +18,7 @@
     padding: 20px 10px;
 }
 
-.menu > li > a:hover {
+.menu > li > a:hover, .menu > li > a:hover > i {
     background-color: #ffe718;
     color: #222931;
 }
