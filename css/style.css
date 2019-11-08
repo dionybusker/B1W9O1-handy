@@ -27,44 +27,7 @@ header > .banner {
     display: inline-block;
 }
 
-main.top > div.center > a { text-decoration: none; }
-
-main.top > div.center > a > img {
-    margin: 50px 10px 0 10px;
-    position: relative;
-    /* top: 50px; */
-}
-
-main.top > div.center > a.cont-diensten { position: relative; }
-
-main.top > div.center > a.cont-diensten > .image3 {
-    display: inline-block;
-    width: 300px;
-    height: 220px;
-}
-
-main.top > div.center > a.cont-diensten > div.overlay {
-    position: absolute;
-    bottom: 0;
-    right: 10px;
-    width: 300px;
-    height: 220px;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #222931;
-}
-
-main.top > div.center > a.cont-diensten:hover > div.overlay { opacity: 1; }
-
-main.top > div.center > a.cont-diensten > div.overlay > p.text {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
+/* banner.css */
 
 main.top > div.center > h1 {
     font-size: 34px;
