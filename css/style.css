@@ -27,7 +27,7 @@ header > .banner {
     display: inline-block;
 }
 
-main > div.center > img {
+main.top > div.center > img {
     margin: 0 10px;
     position: relative;
     top: 50px;
@@ -47,7 +47,7 @@ main > div.center > img {
     color: #222931;
 }
 
-.ribbon > .ribbon-text > .center > h1, .ribbon > .ribbon-text > .center > p, .ribbon > .ribbon-text > .center > button {
+.ribbon > .ribbon-text > .center > h1, .ribbon > .ribbon-text > .center > p, .ribbon > .ribbon-text > .center > a > button {
     display: inline;
     margin: 25px 0;
 }
@@ -61,7 +61,7 @@ main > div.center > img {
     left: 25px;
 }
 
-.ribbon > .ribbon-text > .center > button {
+.ribbon > .ribbon-text > .center > a > button {
     background-color: white;
     border: none;
     padding: 10px 32px;
@@ -72,14 +72,18 @@ main > div.center > img {
     font-weight: 500;
     position: relative;
     left: 325px;
+    cursor: pointer;
 }
+
+.ribbon > .ribbon-text > .center > a > button:hover { background-color: #222931; color:white; }
+
 /* end ribbon */
 
-footer > .footer {
+main.bottom > .bottom-banner {
     width: 100%;
 }
 
-footer > .center > button {
+main.bottom > .center > button {
     width: 300px;
     background-color: #ffe718;
     border: none;
@@ -92,12 +96,12 @@ footer > .center > button {
     bottom: 55px;
 }
 
-footer > .center > button > .text {
+main.bottom > .center > button > .text {
     display: inline-block;
     text-align: justify;
 }
 
-footer > .center > button > .icon {
+main.bottom > .center > button > .icon {
     color: #222931;
     display: inline-block;
     font-size: 50px;
@@ -106,8 +110,8 @@ footer > .center > button > .icon {
     right: 25px;
 }
 
-footer > .center > button > .text > h1 { font-size: 22px; font-weight: 600; margin: 10px 0 0 0; }
-footer > .center > button > .text > p { font-size: 14px; font-weight: 600; margin: 5px 0 10px 0; }
+main.bottom > .center > button > .text > h1 { font-size: 22px; font-weight: 600; margin: 10px 0 0 0; }
+main.bottom > .center > button > .text > p { font-size: 14px; font-weight: 600; margin: 5px 0 10px 0; }
 
 hr {
     border: 1px solid #eef0f1;
@@ -115,29 +119,29 @@ hr {
     bottom: 20px;
 }
 
-footer > .center > main > div.contact {
+main.bottom > .center > div.grid-bottom > div.contact {
     position: relative;
     top: 0;
     left: 0;
 }
 
-footer > .center > main > div.contact > i {
+main.bottom > .center > div.grid-bottom > div.contact > i {
     font-size: 25px;
     color: #aeb6be;
 }
 
-footer > .center > main > div > h1 {
+main.bottom > .center > div.grid-bottom > div > h1 {
     font-size: 24px;
     font-weight: 600;
 }
 
-footer > .center > main > div > p {
+main.bottom > .center > div.grid-bottom > div > p {
     font-size: 12px;
     line-height: 18px;
     font-weight: 400;
 }
 
-.grid-footer {
+.grid-bottom {
     display: grid;
     grid-template-areas: 'overons contact';
     grid-template-rows: minmax(50px, auto);
@@ -147,37 +151,42 @@ footer > .center > main > div > p {
 .overons { grid-area: overons; }
 .contact { grid-area: contact; }
 
-footer > .center > main > div.overons {
+main.bottom > .center > div.grid-bottom > div.overons {
     width: 450px;
 }
 
-footer > .center > main > div.contact {
+main.bottom > .center > div.grid-bottom > div.contact {
     position: relative;
     top: 0;
     left: 0;
 }
 
-footer > .center > main > div.contact > i {
+main.bottom > .center > div.grid-bottom > div.contact > i {
     width: 25px;
     height: 25px;
     text-align: center;
 }
 
-footer > .center > main > div.contact > p {
+main.bottom > .center > div.grid-bottom > div.contact > p {
     display: inline-block;
     position: relative;
     top: 0;
     left: 20px;
 }
 
-footer > .center > .page-end {
+footer {
     background-color: #222931;
     width: 100%;
+    height: 40px;
 }
 
-footer > .center > .page-end > p {
+footer > p {
     color: white;
     font-size: 12px;
     line-height: 18px;
     font-weight: 400;
+    text-align: right;
+    position: relative;
+    top: 10.toppx;
+    right: 325px;
 }
