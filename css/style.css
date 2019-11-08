@@ -44,8 +44,28 @@ main.top > div.center > p {
     font-weight: 500;
 }
 
-main.top > div.center > p > span.yellow {
+main.top > div.center > p > span.tooltip {
+    position: relative;
+    display: inline-block;
     color: #ffe718;
+}
+
+main.top > div.center > p > span.tooltip > span.tooltiptext {
+    font-size: 12px;
+    visibility: hidden;
+    width: 175px;
+    background-color: #aeb6be;
+    color: #fff;
+    text-align: left;
+    padding: 5px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+}
+
+main.top > div.center > p > span.tooltip:hover > span.tooltiptext {
+    visibility: visible;
 }
 
 /* ribbon */
