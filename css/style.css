@@ -100,17 +100,7 @@ main.bottom > .center > a > button {
     cursor: pointer;
 }
 
-main.bottom > .center > a.deals > button:hover, main.bottom > .center > a.deals > button:hover > .icon {
-    background-color: #222931;
-    color: white;
-}
-
 main.bottom > .center > a.diensten > button:hover, main.bottom > .center > a.diensten > button:hover > .icon {
-    background-color: #222931;
-    color: white;
-}
-
-main.bottom > .center > a.contact > button:hover, main.bottom > .center > a.contact > button:hover > .icon {
     background-color: #222931;
     color: white;
 }
