@@ -27,10 +27,25 @@ header > .banner {
     display: inline-block;
 }
 
-main.top > div.center > img {
+main.top > div.center > a > img {
     margin: 0 10px;
     position: relative;
     top: 50px;
+}
+
+main.top > div.center > h1 {
+    font-size: 34px;
+    font-weight: 600;
+}
+
+main.top > div.center > p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+main.top > div.center > p > span.yellow {
+    color: #ffe718;
 }
 
 /* ribbon */
