@@ -25,7 +25,7 @@ main.top > div.center > a.cont-geschiedenis > div.overlay {
     background-color: #222931;
 }
 
-main.top > div.center > a.cont-geschiedenis:hover > div.overlay { opacity: 1; }
+main.top > div.center > a.cont-geschiedenis:hover > div.overlay { opacity: 0.8; }
 
 main.top > div.center > a.cont-geschiedenis > div.overlay > p.text {
     color: white;
@@ -67,7 +67,7 @@ main.top > div.center > a.cont-deals > div.overlay {
     background-color: #222931;
 }
 
-main.top > div.center > a.cont-deals:hover > div.overlay { opacity: 1; }
+main.top > div.center > a.cont-deals:hover > div.overlay { opacity: 0.8; }
 
 main.top > div.center > a.cont-deals > div.overlay > p.text {
     color: white;
@@ -109,7 +109,7 @@ main.top > div.center > a.cont-diensten > div.overlay {
     background-color: #222931;
 }
 
-main.top > div.center > a.cont-diensten:hover > div.overlay { opacity: 1; }
+main.top > div.center > a.cont-diensten:hover > div.overlay { opacity: 0.8; }
 
 main.top > div.center > a.cont-diensten > div.overlay > p.text {
     color: white;
