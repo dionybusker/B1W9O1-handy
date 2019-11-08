@@ -27,6 +27,8 @@ header > .banner {
     display: inline-block;
 }
 
+main.top > div.center > a { text-decoration: none; }
+
 main.top > div.center > a > img {
     margin: 0 10px;
     position: relative;
