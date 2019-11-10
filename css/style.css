@@ -29,24 +29,24 @@ header > .banner {
 
 /* banner.css */
 
-main.top > div.center > h1 {
+section.top > div.center > h1 {
     font-size: 34px;
     font-weight: 600;
 }
 
-main.top > div.center > p {
+section.top > div.center > p {
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
 }
 
-main.top > div.center > p > span.tooltip {
+section.top > div.center > p > span.tooltip {
     position: relative;
     display: inline-block;
     color: #ffe718;
 }
 
-main.top > div.center > p > span.tooltip > span.tooltiptext {
+section.top > div.center > p > span.tooltip > span.tooltiptext {
     font-size: 12px;
     visibility: hidden;
     width: 175px;
@@ -60,9 +60,38 @@ main.top > div.center > p > span.tooltip > span.tooltiptext {
     z-index: 1;
 }
 
-main.top > div.center > p > span.tooltip:hover > span.tooltiptext {
+section.top > div.center > p > span.tooltip:hover > span.tooltiptext {
     visibility: visible;
 }
+
+/* breadcrumb */
+section.top > div.center > ul.breadcrumb {
+    padding: 10px 0;
+    list-style: none;
+}
+
+section.top > div.center > ul.breadcrumb > li {
+    display: inline;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+section.top > div.center > ul.breadcrumb > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+section.top > div.center > ul.breadcrumb > li + li:before {
+    padding: 10px;
+    color: black;
+    content: ">";
+}
+
+section.top > div.center > ul.breadcrumb > li > a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+/* end breadcrumb */
 
 /* ribbon */
 .ribbon {
@@ -110,15 +139,15 @@ main.top > div.center > p > span.tooltip:hover > span.tooltiptext {
 
 /* end ribbon */
 
-main.bottom > .bottom-banner {
+section.bottom > .bottom-banner {
     width: 100%;
 }
 
-main.bottom > .center > a {
+section.bottom > .center > a {
     text-decoration: none;
 }
 
-main.bottom > .center > a > button {
+section.bottom > .center > a > button {
     width: 300px;
     background-color: #ffe718;
     border: none;
@@ -131,17 +160,17 @@ main.bottom > .center > a > button {
     cursor: pointer;
 }
 
-main.bottom > .center > a.diensten > button:hover, main.bottom > .center > a.diensten > button:hover > .icon {
+section.bottom > .center > a.diensten > button:hover, section.bottom > .center > a.diensten > button:hover > .icon {
     background-color: #222931;
     color: white;
 }
 
-main.bottom > .center > a > button > .text {
+section.bottom > .center > a > button > .text {
     display: inline-block;
     text-align: justify;
 }
 
-main.bottom > .center > a > button > .icon {
+section.bottom > .center > a > button > .icon {
     color: #222931;
     display: inline-block;
     font-size: 50px;
@@ -150,8 +179,8 @@ main.bottom > .center > a > button > .icon {
     right: 25px;
 }
 
-main.bottom > .center > a > button > .text > h1 { font-size: 22px; font-weight: 600; margin: 10px 0 0 0; }
-main.bottom > .center > a > button > .text > p { font-size: 14px; font-weight: 600; margin: 5px 0 10px 0; }
+section.bottom > .center > a > button > .text > h1 { font-size: 22px; font-weight: 600; margin: 10px 0 0 0; }
+section.bottom > .center > a > button > .text > p { font-size: 14px; font-weight: 600; margin: 5px 0 10px 0; }
 
 hr {
     border: 1px solid #eef0f1;
@@ -159,23 +188,23 @@ hr {
     bottom: 20px;
 }
 
-main.bottom > .center > div.grid-bottom > div.contact {
+section.bottom > .center > div.grid-bottom > div.contact {
     position: relative;
     top: 0;
     left: 0;
 }
 
-main.bottom > .center > div.grid-bottom > div.contact > i {
+section.bottom > .center > div.grid-bottom > div.contact > i {
     font-size: 25px;
     color: #aeb6be;
 }
 
-main.bottom > .center > div.grid-bottom > div > h1 {
+section.bottom > .center > div.grid-bottom > div > h1 {
     font-size: 24px;
     font-weight: 600;
 }
 
-main.bottom > .center > div.grid-bottom > div > p {
+section.bottom > .center > div.grid-bottom > div > p {
     font-size: 12px;
     line-height: 18px;
     font-weight: 400;
@@ -191,23 +220,23 @@ main.bottom > .center > div.grid-bottom > div > p {
 .overons { grid-area: overons; }
 .contact { grid-area: contact; }
 
-main.bottom > .center > div.grid-bottom > div.overons {
+section.bottom > .center > div.grid-bottom > div.overons {
     width: 450px;
 }
 
-main.bottom > .center > div.grid-bottom > div.contact {
+section.bottom > .center > div.grid-bottom > div.contact {
     position: relative;
     top: 0;
     left: 0;
 }
 
-main.bottom > .center > div.grid-bottom > div.contact > i {
+section.bottom > .center > div.grid-bottom > div.contact > i {
     width: 25px;
     height: 25px;
     text-align: center;
 }
 
-main.bottom > .center > div.grid-bottom > div.contact > p {
+section.bottom > .center > div.grid-bottom > div.contact > p {
     display: inline-block;
     position: relative;
     top: 0;
