@@ -29,24 +29,24 @@ header > .banner {
 
 /* banner.css */
 
-section.top > div.center > h1 {
+div.top > div.center > h1 {
     font-size: 34px;
     font-weight: 600;
 }
 
-section.top > div.center > p {
+div.top > div.center > p {
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
 }
 
-section.top > div.center > p > span.tooltip {
+div.top > div.center > p > span.tooltip {
     position: relative;
     display: inline-block;
     color: #ffe718;
 }
 
-section.top > div.center > p > span.tooltip > span.tooltiptext {
+div.top > div.center > p > span.tooltip > span.tooltiptext {
     font-size: 12px;
     visibility: hidden;
     width: 175px;
@@ -60,34 +60,34 @@ section.top > div.center > p > span.tooltip > span.tooltiptext {
     z-index: 1;
 }
 
-section.top > div.center > p > span.tooltip:hover > span.tooltiptext {
+div.top > div.center > p > span.tooltip:hover > span.tooltiptext {
     visibility: visible;
 }
 
 /* breadcrumb */
-section.top > div.center > ul.breadcrumb {
+div.top > div.center > ul.breadcrumb {
     padding: 10px 0;
     list-style: none;
 }
 
-section.top > div.center > ul.breadcrumb > li {
+div.top > div.center > ul.breadcrumb > li {
     display: inline;
     font-size: 12px;
     font-weight: 400;
 }
 
-section.top > div.center > ul.breadcrumb > li > a {
+div.top > div.center > ul.breadcrumb > li > a {
     text-decoration: none;
     color: black;
 }
 
-section.top > div.center > ul.breadcrumb > li + li:before {
+div.top > div.center > ul.breadcrumb > li + li:before {
     padding: 10px;
     color: black;
     content: ">";
 }
 
-section.top > div.center > ul.breadcrumb > li > a:hover {
+div.top > div.center > ul.breadcrumb > li > a:hover {
     color: #01447e;
     text-decoration: underline;
 }
@@ -107,7 +107,7 @@ section.top > div.center > ul.breadcrumb > li > a:hover {
     color: #222931;
 }
 
-.ribbon > .ribbon-text > .center > h1, .ribbon > .ribbon-text > .center > p, .ribbon > .ribbon-text > .center > a > button {
+.ribbon > .ribbon-text > .center > h1, .ribbon > .ribbon-text > .center > p, .ribbon > .ribbon-text > .center > a {
     display: inline;
     margin: 25px 0;
 }
@@ -121,7 +121,7 @@ section.top > div.center > ul.breadcrumb > li > a:hover {
     left: 25px;
 }
 
-.ribbon > .ribbon-text > .center > a > button {
+.ribbon > .ribbon-text > .center > a {
     background-color: white;
     border: none;
     padding: 10px 32px;
@@ -135,20 +135,15 @@ section.top > div.center > ul.breadcrumb > li > a:hover {
     cursor: pointer;
 }
 
-.ribbon > .ribbon-text > .center > a > button:hover { background-color: #222931; color:white; }
-
+.ribbon > .ribbon-text > .center > a:hover { background-color: #222931; color:white; }
 /* end ribbon */
 
-section.bottom > .bottom-banner {
+div.bottom > .bottom-banner {
     width: 100%;
 }
 
-section.bottom > .center > a {
-    text-decoration: none;
-}
-
-section.bottom > .center > a > button {
-    width: 300px;
+div.bottom > .center > a {
+    width: 246px;
     background-color: #ffe718;
     border: none;
     padding: 10px 32px;
@@ -158,19 +153,20 @@ section.bottom > .center > a > button {
     position: relative;
     bottom: 55px;
     cursor: pointer;
+    text-decoration: none;
 }
 
-section.bottom > .center > a.diensten > button:hover, section.bottom > .center > a.diensten > button:hover > .icon {
+div.bottom > .center > a.diensten:hover, div.bottom > .center > a.diensten:hover > .icon {
     background-color: #222931;
     color: white;
 }
 
-section.bottom > .center > a > button > .text {
+div.bottom > .center > a > .text {
     display: inline-block;
     text-align: justify;
 }
 
-section.bottom > .center > a > button > .icon {
+div.bottom > .center > a > .icon {
     color: #222931;
     display: inline-block;
     font-size: 50px;
@@ -179,8 +175,8 @@ section.bottom > .center > a > button > .icon {
     right: 25px;
 }
 
-section.bottom > .center > a > button > .text > h1 { font-size: 22px; font-weight: 600; margin: 10px 0 0 0; }
-section.bottom > .center > a > button > .text > p { font-size: 14px; font-weight: 600; margin: 5px 0 10px 0; }
+div.bottom > .center > a > .text > h1 { font-size: 22px; font-weight: 600; margin: 10px 0 0 0; }
+div.bottom > .center > a > .text > p { font-size: 14px; font-weight: 600; margin: 5px 0 10px 0; }
 
 hr {
     border: 1px solid #eef0f1;
@@ -188,23 +184,23 @@ hr {
     bottom: 20px;
 }
 
-section.bottom > .center > div.grid-bottom > div.contact {
+div.bottom > .center > div.grid-bottom > div.contact {
     position: relative;
     top: 0;
     left: 0;
 }
 
-section.bottom > .center > div.grid-bottom > div.contact > i {
+div.bottom > .center > div.grid-bottom > div.contact > i {
     font-size: 25px;
     color: #aeb6be;
 }
 
-section.bottom > .center > div.grid-bottom > div > h1 {
+div.bottom > .center > div.grid-bottom > div > h1 {
     font-size: 24px;
     font-weight: 600;
 }
 
-section.bottom > .center > div.grid-bottom > div > p {
+div.bottom > .center > div.grid-bottom > div > p {
     font-size: 12px;
     line-height: 18px;
     font-weight: 400;
@@ -212,31 +208,31 @@ section.bottom > .center > div.grid-bottom > div > p {
 
 .grid-bottom {
     display: grid;
-    grid-template-areas: 'overons contact';
+    grid-template-areas: 'overons overons contact';
     grid-template-rows: minmax(50px, auto);
-    grid-template-columns: (2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .overons { grid-area: overons; }
 .contact { grid-area: contact; }
 
-section.bottom > .center > div.grid-bottom > div.overons {
+div.bottom > .center > div.grid-bottom > div.overons {
     width: 450px;
 }
 
-section.bottom > .center > div.grid-bottom > div.contact {
+div.bottom > .center > div.grid-bottom > div.contact {
     position: relative;
     top: 0;
     left: 0;
 }
 
-section.bottom > .center > div.grid-bottom > div.contact > i {
+div.bottom > .center > div.grid-bottom > div.contact > i {
     width: 25px;
     height: 25px;
     text-align: center;
 }
 
-section.bottom > .center > div.grid-bottom > div.contact > p {
+div.bottom > .center > div.grid-bottom > div.contact > p {
     display: inline-block;
     position: relative;
     top: 0;

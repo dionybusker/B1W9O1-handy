@@ -1,20 +1,20 @@
 /* banner 1 */
-section.top > div.center > a { text-decoration: none; }
+div.top > div.center > a { text-decoration: none; }
 
-section.top > div.center > a > img {
+div.top > div.center > a > img {
     margin: 50px 10px 0 10px;
     position: relative;
 }
 
-section.top > div.center > a.cont-geschiedenis { position: relative; }
+div.top > div.center > a.cont-geschiedenis { position: relative; }
 
-section.top > div.center > a.cont-geschiedenis > .image3 {
+div.top > div.center > a.cont-geschiedenis > .image3 {
     display: inline-block;
     width: 300px;
     height: 220px;
 }
 
-section.top > div.center > a.cont-geschiedenis > div.overlay {
+div.top > div.center > a.cont-geschiedenis > div.overlay {
     position: absolute;
     bottom: 3px;
     left: 10px;
@@ -25,9 +25,9 @@ section.top > div.center > a.cont-geschiedenis > div.overlay {
     background-color: #222931;
 }
 
-section.top > div.center > a.cont-geschiedenis:hover > div.overlay { opacity: 0.8; }
+div.top > div.center > a.cont-geschiedenis:hover > div.overlay { opacity: 0.8; }
 
-section.top > div.center > a.cont-geschiedenis > div.overlay > p.text {
+div.top > div.center > a.cont-geschiedenis > div.overlay > p.text {
     color: white;
     font-size: 32px;
     font-weight: 600;
@@ -41,22 +41,22 @@ section.top > div.center > a.cont-geschiedenis > div.overlay > p.text {
 
 
 /* banner 2 */
-section.top > div.center > a { text-decoration: none; }
+div.top > div.center > a { text-decoration: none; }
 
-section.top > div.center > a > img {
+div.top > div.center > a > img {
     margin: 50px 10px 0 10px;
     position: relative;
 }
 
-section.top > div.center > a.cont-deals { position: relative; }
+div.top > div.center > a.cont-deals { position: relative; }
 
-section.top > div.center > a.cont-deals > .image3 {
+div.top > div.center > a.cont-deals > .image3 {
     display: inline-block;
     width: 300px;
     height: 220px;
 }
 
-section.top > div.center > a.cont-deals > div.overlay {
+div.top > div.center > a.cont-deals > div.overlay {
     position: absolute;
     bottom: 3px;
     left: 10px;
@@ -67,9 +67,9 @@ section.top > div.center > a.cont-deals > div.overlay {
     background-color: #222931;
 }
 
-section.top > div.center > a.cont-deals:hover > div.overlay { opacity: 0.8; }
+div.top > div.center > a.cont-deals:hover > div.overlay { opacity: 0.8; }
 
-section.top > div.center > a.cont-deals > div.overlay > p.text {
+div.top > div.center > a.cont-deals > div.overlay > p.text {
     color: white;
     font-size: 32px;
     font-weight: 600;
@@ -83,22 +83,22 @@ section.top > div.center > a.cont-deals > div.overlay > p.text {
 
 
 /* banner 3 */
-section.top > div.center > a { text-decoration: none; }
+div.top > div.center > a { text-decoration: none; }
 
-section.top > div.center > a > img {
+div.top > div.center > a > img {
     margin: 50px 10px 0 10px;
     position: relative;
 }
 
-section.top > div.center > a.cont-diensten { position: relative; }
+div.top > div.center > a.cont-diensten { position: relative; }
 
-section.top > div.center > a.cont-diensten > .image3 {
+div.top > div.center > a.cont-diensten > .image3 {
     display: inline-block;
     width: 300px;
     height: 220px;
 }
 
-section.top > div.center > a.cont-diensten > div.overlay {
+div.top > div.center > a.cont-diensten > div.overlay {
     position: absolute;
     bottom: 3px;
     left: 10px;
@@ -109,9 +109,9 @@ section.top > div.center > a.cont-diensten > div.overlay {
     background-color: #222931;
 }
 
-section.top > div.center > a.cont-diensten:hover > div.overlay { opacity: 0.8; }
+div.top > div.center > a.cont-diensten:hover > div.overlay { opacity: 0.8; }
 
-section.top > div.center > a.cont-diensten > div.overlay > p.text {
+div.top > div.center > a.cont-diensten > div.overlay > p.text {
     color: white;
     font-size: 32px;
     font-weight: 600;
